@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="rss.xml">
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to My Movie Reviews!</h1>
+    </div>
+
+    <!-- Search Bar -->
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search reviews...">
+        <button onclick="searchReviews()">Search</button>
+    </div>
+
+    <!-- Main Content -->
+    <div id="content">
+        <div class="review">
+            <h2>Inception (2010)</h2>
+            <p>A mind-bending thriller by Christopher Nolan.</p>
+            <div class="rating-breakdown">
+                <h3>Ratings Breakdown</h3>
+                <p>Acting: ⭐️⭐️⭐️⭐️☆</p>
+                <p>Cinematography: ⭐️⭐️⭐️⭐️⭐️</p>
+                <p>Story: ⭐️⭐️⭐️⭐️☆</p>
+                <p>Soundtrack: ⭐️⭐️⭐️⭐️⭐️</p>
+            </div>
+        </div>
+        <!-- Add more reviews as needed -->
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination">
+        <button onclick="prevPage()">Previous</button>
+        <span id="page-number">1</span>
+        <button onclick="nextPage()">Next</button>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 My Movie Reviews</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
