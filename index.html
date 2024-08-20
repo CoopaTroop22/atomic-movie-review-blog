@@ -8,43 +8,45 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="rss.xml">
 </head>
 <body>
-    <div id="header">
-        <h1>Welcome to My Movie Reviews!</h1>
-    </div>
+    <header>
+        <h1>My Movie Reviews</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <!-- Search Bar -->
-    <div id="search-bar">
-        <input type="text" id="search-input" placeholder="Search reviews...">
-        <button onclick="searchReviews()">Search</button>
-    </div>
+    <main>
+        <section id="reviews">
+            <h2>Latest Reviews</h2>
+            <!-- Example Movie Review 1 -->
+            <article class="review">
+                <img src="path/to/inception-poster.jpg" alt="Inception Poster" class="poster">
+                <div class="review-content">
+                    <h3>Inception (2010)</h3>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>A mind-bending thriller by Christopher Nolan. The film explores the concept of dreams within dreams, offering a unique narrative structure and impressive visual effects.</p>
+                    <small>Published on: August 21, 2024</small>
+                </div>
+            </article>
+            <!-- Example Movie Review 2 -->
+            <article class="review">
+                <img src="path/to/dark-knight-poster.jpg" alt="The Dark Knight Poster" class="poster">
+                <div class="review-content">
+                    <h3>The Dark Knight (2008)</h3>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>An epic superhero film directed by Christopher Nolan. The Dark Knight features a riveting performance by Heath Ledger as the Joker and remains one of the most influential films in the genre.</p>
+                    <small>Published on: August 20, 2024</small>
+                </div>
+            </article>
+            <!-- Add more reviews as needed -->
+        </section>
+    </main>
 
-    <!-- Main Content -->
-    <div id="content">
-        <div class="review">
-            <h2>Inception (2010)</h2>
-            <p>A mind-bending thriller by Christopher Nolan.</p>
-            <div class="rating-breakdown">
-                <h3>Ratings Breakdown</h3>
-                <p>Acting: ⭐️⭐️⭐️⭐️☆</p>
-                <p>Cinematography: ⭐️⭐️⭐️⭐️⭐️</p>
-                <p>Story: ⭐️⭐️⭐️⭐️☆</p>
-                <p>Soundtrack: ⭐️⭐️⭐️⭐️⭐️</p>
-            </div>
-        </div>
-        <!-- Add more reviews as needed -->
-    </div>
-
-    <!-- Pagination -->
-    <div id="pagination">
-        <button onclick="prevPage()">Previous</button>
-        <span id="page-number">1</span>
-        <button onclick="nextPage()">Next</button>
-    </div>
-
-    <div id="footer">
+    <footer>
         <p>&copy; 2024 My Movie Reviews</p>
-    </div>
-
-    <script src="scripts.js"></script>
+    </footer>
 </body>
 </html>
+
