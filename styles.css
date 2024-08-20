@@ -1,0 +1,124 @@
+body {
+    background: url('bg-tile.gif') repeat; /* Classic repeating background */
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #000080; /* Dark blue text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#header {
+    background: linear-gradient(to bottom, #000080, #0000ff);
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 4px solid #ff6347;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#nav {
+    margin: 10px 0;
+}
+
+#nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 15px;
+    background-color: #ff4500; /* OrangeRed background */
+    border: 2px solid #000080;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    background-color: #ff6347;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+#content {
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 3px solid #000080;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.page {
+    display: none;
+}
+
+#sidebar {
+    background-color: #add8e6;
+    padding: 15px;
+    border: 3px solid #000080;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#footer {
+    background: linear-gradient(to top, #000080, #0000ff);
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 4px solid #ff6347;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 0.9em;
+}
+
+#footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Improved Review Post Layout */
+.review {
+    background-color: #f0f8ff;
+    border: 2px solid #000080;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+.review h3 {
+    font-size: 1.5em;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+
+.review img.poster {
+    width: 120px;
+    height: 180px;
+    margin-right: 15px;
+    border: 2px solid #000080;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.review p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 1.2em;
+    color: #ffd700;
+    margin-top: 10px;
+}
