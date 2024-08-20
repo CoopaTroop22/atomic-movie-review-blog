@@ -1,78 +1,82 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: url('bg-tile.gif') repeat;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    color: #000080;
+/* Basic Reset */
+body, h1, h2, p, article {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-#header, #footer {
-    background-color: #f0f8ff;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border: 3px solid #000080;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#search-bar {
-    margin: 20px;
-}
-
-#content {
-    max-width: 800px;
-    width: 100%;
+header {
+    background-color: #003366; /* Dark Blue */
+    color: #ff6600; /* Orange */
     padding: 20px;
-    background-color: #ffffff;
-    border: 3px solid #000080;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
-.review {
-    margin-bottom: 20px;
-    padding: 15px;
-    border-bottom: 2px solid #000080;
+header h1 {
+    margin-bottom: 10px;
 }
 
-.rating-breakdown {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f0f8ff;
-    border: 2px solid #000080;
-}
-
-#pagination {
-    margin: 20px;
-}
-
-#pagination button {
-    margin: 0 10px;
-    padding: 5px 15px;
-    background-color: #000080;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#pagination button:hover {
-    background-color: #3333cc;
-}
-
-#page-number {
+nav a {
+    color: #ff6600; /* Orange */
+    text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    #content {
-        padding: 10px;
-    }
+nav a:hover {
+    text-decoration: underline;
+}
 
-    #pagination {
-        display: flex;
-        justify-content: center;
-    }
+main {
+    padding: 20px;
+}
+
+section#reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.poster {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.review-content {
+    padding: 15px;
+    flex: 1;
+}
+
+.review-content h3 {
+    margin-top: 0;
+}
+
+.rating {
+    color: #FFD700; /* Gold */
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #003366; /* Dark Blue */
+    color: #ff6600; /* Orange */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
