@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>My Movie Reviews</title>
+        <link>http://yourwebsite.com</link>
+        <description>Latest reviews on My Movie Reviews blog.</description>
+        <item>
+            <title>Inception (2010) Review</title>
+            <link>http://yourwebsite.com/inception-review</link>
+            <description>A mind-bending thriller by Christopher Nolan.</description>
+        </item>
+        <!-- Add more items for each review -->
+    </channel>
+</rss>
