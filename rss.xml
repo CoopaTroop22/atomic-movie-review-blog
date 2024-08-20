@@ -2,13 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>My Movie Reviews</title>
-        <link>http://yourwebsite.com</link>
+        <link>https://CoopaTroopa22.github.io/atomic-movie-review-blog/</link>
         <description>Latest reviews on My Movie Reviews blog.</description>
+        <language>en-us</language>
+        <pubDate>Mon, 21 Aug 2024 00:00:00 GMT</pubDate>
+        <lastBuildDate>Mon, 21 Aug 2024 00:00:00 GMT</lastBuildDate>
+
+        <!-- Example Item -->
         <item>
             <title>Inception (2010) Review</title>
-            <link>http://yourwebsite.com/inception-review</link>
-            <description>A mind-bending thriller by Christopher Nolan.</description>
+            <link>https://yourusername.github.io/repositoryname/inception-review</link>
+            <description>A mind-bending thriller by Christopher Nolan. Full review inside.</description>
+            <pubDate>Mon, 21 Aug 2024 00:00:00 GMT</pubDate>
+            <guid>https://yourusername.github.io/repositoryname/inception-review</guid>
         </item>
+
         <!-- Add more items for each review -->
     </channel>
 </rss>
