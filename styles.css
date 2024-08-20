@@ -7,15 +7,16 @@ body, h1, h2, p, article {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
     color: #333;
 }
 
 header {
     background-color: #003366; /* Dark Blue */
     color: #ff6600; /* Orange */
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+    border-bottom: 2px solid #ff6600;
 }
 
 header h1 {
@@ -69,6 +70,7 @@ section#reviews {
 .rating {
     color: #FFD700; /* Gold */
     font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -79,4 +81,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: 2px solid #ff6600;
 }
